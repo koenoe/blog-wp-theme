@@ -16,4 +16,6 @@ jQuery(function() {
 		delay: 500,
 		elementMaxY: '.blogposts'
 	});
+	// Social sharing
+	jQuery('.social').social();
 });

@@ -3,11 +3,13 @@ function load_javascript(){
 	wp_register_script('modernizr', get_template_directory_uri().'/js/lib/modernizr.js',null,null);
 	wp_register_script('base', get_template_directory_uri().'/js/lib/base.js',null,null);
 	wp_register_script('sticky', get_template_directory_uri().'/js/lib/sticky.js',null,null);
+	wp_register_script('social', get_template_directory_uri().'/js/lib/social.js',null,null);
 	wp_register_script('style', get_template_directory_uri().'/js/style.js',null,null);
 	wp_enqueue_script('modernizr');
 	wp_enqueue_script('base');
 	wp_enqueue_script('jquery');
 	wp_enqueue_script('sticky');
+	wp_enqueue_script('social');
 	wp_enqueue_script('style');
 }
 function load_styles(){

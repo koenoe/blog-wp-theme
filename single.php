@@ -17,6 +17,14 @@
 				<?php the_tags('<ul class="tags"><li>',',</li><li>','</li></ul>'); ?>
 			</footer>
 
+			<section class="social">
+				<ul>
+					<li><div class="fb-like" data-send="false" data-layout="box_count" data-show-faces="false" data-width="56"></div></li>
+					<li><a data-count="vertical" href="https://twitter.com/share" class="twitter-share-button">Tweet</a></li>
+					<li><div class="g-plusone" data-size="tall"></div></li>
+				</ul>
+			</section>
+
 			<?php comments_template(); ?> 
 
 		</article>
