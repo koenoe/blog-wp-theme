@@ -37,10 +37,9 @@
 	}
 
 	Social.prototype.init = function(){
-		console.log('laden die hap!');
 		if(this.options.facebook){
 			$('body').prepend('<div id="fb-root"></div>');
-			$.getScript('http://connect.facebook.net/en_US/all.js#xfbml=1',function(){
+			$.getScript('http://connect.facebook.net/en_US/all.js#xfbml=1&appId=164977776919117',function(){
 				FB.XFBML.parse();
 			});
 		}
