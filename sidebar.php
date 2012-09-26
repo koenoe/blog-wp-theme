@@ -7,8 +7,8 @@
 			</a>
 		</h1>
 		<div class="intro">
-			<p>I'm a developer working for <a href="#">Mangrove</a> and a freelance photographer.</p>
-			<p>This blog is mainly about my project, learning (read: doing) new stuff every month for one year.</p>
+			<p>I'm a developer working for <a href="http://www.mangrove.com" target="_blank">Mangrove</a> and a freelance photographer.</p>
+			<p>This blog is mainly about my project, experimenting with a new programming language or framework every month for one year.</p>
 		</div>
 	</div>
 	<div class="block categories">
